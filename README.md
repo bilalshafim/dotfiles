@@ -1,3 +1,8 @@
+## Dotfiles
+
+![komi_ascii_wall](https://github.com/user-attachments/assets/7737e517-8a98-4c74-a781-d55a4516c67a)
+
+
 # Usage
 ## Stowing
 Clone repo into ~/.dotfiles:
