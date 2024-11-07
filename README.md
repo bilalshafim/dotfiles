@@ -1,5 +1,12 @@
 ## Dotfiles
 
+### Dark
+![desk-dark](https://github.com/user-attachments/assets/3b9242f4-15c9-4f8b-ad92-81e8a516b92a)
+
+### Light
+![desk-light](https://github.com/user-attachments/assets/a457c860-dfdb-4308-a298-cbb57157235e)
+
+### ASCII Wallpaper
 ![komi_ascii_wall](https://github.com/user-attachments/assets/7737e517-8a98-4c74-a781-d55a4516c67a)
 
 
