@@ -1,0 +1,35 @@
+---
+- name: Remove existing dotfiles in home directory if they exist
+  file:
+    path: "{{ item }}"
+    state: absent
+  loop:
+    - "{{ ansible_env.HOME }}/.bashrc"
+    - "{{ ansible_env.HOME }}/.docker"
+    - "{{ ansible_env.HOME }}/.tmux.conf"
+    - "{{ ansible_env.HOME }}/.zshrc"
+- name: Remove specific folders inside ~/.config if they exist
+  file:
+    path: "{{ ansible_env.HOME }}/.config/{{ item }}"
+    state: absent
+  loop:
+    - btop
+    - cava
+    - gtk-3.0
+    - gtk-4.0
+    - i3
+    - kitty
+    - macchina
+    - nvim
+    - picom
+    - spicetify
+- name: Stow dotfiles for bash, docker, tmux, zsh
+  command: stow -d {{ ansible_env.HOME }}/.dotfiles -t ~ {{ item }}
+  loop:
+    - bash
+    - docker
+    - tmux
+    - zsh
+
+- name: Stow .config directory
+  command: stow -d {{ ansible_env.HOME }}/.dotfiles -t {{ ansible_env.HOME }}/.config .config

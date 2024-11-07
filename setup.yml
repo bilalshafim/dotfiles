@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  become: true
+  tasks:
+    - include_role:
+        name: dependencies
+
+- hosts: localhost
+  become: false
+  tasks:
+    - include_role:
+        name: stow

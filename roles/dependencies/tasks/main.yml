@@ -1,0 +1,59 @@
+---
+- name: Install GNU Stow
+  apt:
+    name: stow
+    state: present
+
+- name: Install zsh
+  apt:
+    name: zsh
+    state: present
+
+- name: Install tmux
+  apt:
+    name: tmux
+    state: present
+
+- name: Install Neovim (from source)
+  shell: |
+    git clone https://github.com/neovim/neovim.git /tmp/neovim
+    cd /tmp/neovim
+    make CMAKE_BUILD_TYPE=Release
+    sudo make install
+
+- name: Install i3 and i3lock
+  apt:
+    name:
+      - i3
+      - i3lock
+    state: present
+
+- name: Add PPA for i3lock-color and install it
+  apt_repository:
+    repo: ppa:meskarune/i3lock-color
+    state: present
+
+- name: Update apt cache after adding PPA for i3lock-color
+  apt:
+    update_cache: yes
+
+- name: Install i3lock-color
+  apt:
+    name: i3lock-color
+    state: present
+
+- name: Install macchina
+  apt:
+    name: macchina
+    state: present
+
+- name: Install picom
+  apt:
+    name: picom
+    state: present
+
+- name: Install Oh My Zsh (if not already installed)
+  shell: |
+    if [ ! -d "$HOME/.oh-my-zsh" ]; then
+      sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)";
+    fi
