@@ -1,0 +1,59 @@
+[/]
+default='20973b0f-a7cb-4fdd-bdfc-53cff02014c8'
+list=['20973b0f-a7cb-4fdd-bdfc-53cff02014c8']
+
+[:20973b0f-a7cb-4fdd-bdfc-53cff02014c8]
+background-color='rgb(25,23,36)'
+background-transparency-percent=13
+bold-is-bright=false
+cursor-background-color='rgb(235,188,186)'
+cursor-foreground-color='rgb(54,42,126)'
+font='0xProto Nerd Font 9'
+foreground-color='rgb(224,222,244)'
+highlight-background-color='rgb(64,61,82)'
+highlight-foreground-color='rgb(224,222,244)'
+palette=['rgb(38,35,58)', 'rgb(235,111,146)', 'rgb(49,116,143)', 'rgb(246,193,119)', 'rgb(156,207,216)', 'rgb(196,167,231)', 'rgb(235,188,186)', 'rgb(224,222,244)', 'rgb(110,106,134)', 'rgb(235,111,146)', 'rgb(49,116,143)', 'rgb(246,193,119)', 'rgb(156,207,216)', 'rgb(196,167,231)', 'rgb(235,188,186)', 'rgb(224,222,244)']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Rosé Pine'
+
+[:88ae5c42-c34d-4a30-93d0-91e5398ee09d]
+background-transparency-percent=33
+bold-is-bright=true
+custom-command=''
+exit-action='hold'
+font='0xProto Nerd Font 10'
+palette=['rgb(46,52,54)', 'rgb(204,0,0)', 'rgb(173,83,179)', 'rgb(196,160,0)', 'rgb(124,52,164)', 'rgb(178,46,199)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(239,41,41)', 'rgb(165,105,193)', 'rgb(252,233,79)', 'rgb(102,198,109)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
+scroll-on-keystroke=true
+scrollback-unlimited=false
+scrollbar-policy='never'
+use-custom-command=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='tmux-def'
+
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(23,20,33)'
+cursor-blink-mode='off'
+font='0xProto Nerd Font 9'
+foreground-color='rgb(208,207,204)'
+palette=['rgb(7,54,66)', 'rgb(220,50,47)', 'rgb(133,153,0)', 'rgb(181,137,0)', 'rgb(38,139,210)', 'rgb(211,54,130)', 'rgb(42,161,152)', 'rgb(238,232,213)', 'rgb(0,43,54)', 'rgb(203,75,22)', 'rgb(88,110,117)', 'rgb(101,123,131)', 'rgb(131,148,150)', 'rgb(108,113,196)', 'rgb(147,161,161)', 'rgb(253,246,227)']
+use-theme-colors=false
+use-theme-transparency=true
+
+[:b817d477-3568-4407-862d-9961239dcef2]
+background-color='rgb(0,0,0)'
+background-transparency-percent=27
+custom-command='tmux'
+exit-action='close'
+font='0xProto Nerd Font 10'
+foreground-color='rgb(255,255,255)'
+use-custom-command=true
+use-theme-colors=false
+use-theme-transparency=true
+use-transparent-background=false
+visible-name='tmux'
