@@ -11,7 +11,11 @@
 
 
 # Usage
-## Stowing
+## Run Ansible Playbook
+```
+.~/.dotfiles/bootstrap.sh
+```
+## Stowing Manually
 Clone repo into ~/.dotfiles:
 ```
 git clone git@github.com:bilalshafim/dotfiles ~/.dotfiles
