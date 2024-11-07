@@ -12,6 +12,7 @@
 
 # Usage
 ## Run Ansible Playbook
+Install dependencies/packages and stow
 ```
 .~/.dotfiles/bootstrap.sh
 ```
