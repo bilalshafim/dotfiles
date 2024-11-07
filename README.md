@@ -37,6 +37,8 @@ git submodule update --remote nvim
 ```
 
 
+
+
 # Dependencies
 ### GNU Stow
 ```
@@ -44,6 +46,8 @@ sudo apt install stow
 ```
 or build from source:
 https://git.savannah.gnu.org/cgit/stow.git
+
+
 
 
 # Packages
