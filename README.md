@@ -11,7 +11,15 @@
 
 
 # Usage
-## Stowing
+## Automated
+### Run Ansible Playbook
+Install dependencies/packages and stow
+```
+.~/.dotfiles/bootstrap.sh
+```
+
+## Manual
+### Stowing Manually
 Clone repo into ~/.dotfiles:
 ```
 git clone git@github.com:bilalshafim/dotfiles ~/.dotfiles
@@ -24,6 +32,7 @@ Stow .config directory:
 stow -d ~/.dotfiles -t ~/.config .config
 ```
 
+# Development
 ## Neovinm config submodule
 
 If you clone dotfiles repository in the future, remember to initialize and update submodules (nvim) with:
