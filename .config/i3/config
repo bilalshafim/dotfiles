@@ -28,7 +28,7 @@ exec --no-startup-id xrandr --output HDMI-1 --auto --output HDMI-2 --auto --left
 exec --no-startup-id picom -b
 exec_always feh --bg-fill /home/bilalshafi/.config/i3/wall.png
 
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 0
                           # class                 border  backgr. text    indicator child_border
 for_window [class="^.*"] client.focused          #77dd77 #285577 #ffffff #2e9ef4   #285577
 
