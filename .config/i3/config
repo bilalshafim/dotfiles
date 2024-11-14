@@ -26,7 +26,29 @@ font pango:monospace 8
 # Custom config
 exec --no-startup-id xrandr --output HDMI-1 --auto --output HDMI-2 --auto --left-of HDMI-1
 exec --no-startup-id picom -b
+
+# Wallpaper selections - Manual
+#  -- Komi ASCII
 exec_always feh --bg-fill /home/bilalshafi/.config/i3/wall.png
+#  -- Sakura
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/4tj8VgN.jpeg"
+#  -- Anime Girl 01 - Red
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/915K5H2R_output_0.jpeg"
+#  -- Anime Sunset
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/4323991.jpg"
+#  -- Psycho Girl ASCII
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/ascii_art/ascii-art (33).png"
+#  -- Komi looking down ASCII
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/ascii_art/ascii-art (37).png"
+#  -- FLCL
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/106372779_p0(3).png"
+#  -- Anime girl balcony
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/wallpaperflare-cropped.jpg"
+#  -- Linux
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/linux-penguin-and-rainbow-background-imsv6hxt0e8zcl7m-3730406657.jpg"
+#  -- Anime Girl 2 -  Red
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/NDDV3HJ6_output_0.jpeg"
+
 
 for_window [class="^.*"] border pixel 0
                           # class                 border  backgr. text    indicator child_border
@@ -172,6 +194,7 @@ exec --no-startup-id i3-msg "workspace $ws3; exec google-chrome"
 exec --no-startup-id i3-msg "workspace $ws4; exec flatpak run io.github.zen_browser.zen"
 exec --no-startup-id i3-msg "workspace $ws5; exec i3-sensible-terminal -e btop"
 exec --no-startup-id i3-msg "workspace $ws5; exec spotify"
+# exec_always --no-startup-id i3-msg 'workspace $ws5; exec i3-sensible-terminal -- bash -c "cbonsai --screensaver --life 64 --multiplier 10 --time 3600 --message \"patience\" --base 2; exec bash"'
 exec --no-startup-id i3-msg "workspace $ws6; exec "
 
 
@@ -255,14 +278,14 @@ bar {
         strip_workspace_numbers yes  # Hide workspace numbers
 
         colors {
-        background #191724            # Base color
+        background #26233a            # Base color
         statusline #e0def4            # Text color
-        separator #26233a             # Separator color
+        separator #191724             # Separator color
 
-        focused_workspace  #3e8fb0 #191724 #e0def4  # Pine (active workspace)
-        active_workspace   #ea9a97 #191724 #e0def4  # Rose (inactive workspace)
-        inactive_workspace #1F1A2D #1F1A2D #888888  # Surface (inactive)
-        urgent_workspace   #eb6f92 #eb6f92 #ffffff  # Love (urgent)
+        focused_workspace  $rose $rose #191724
+        active_workspace   $pine $pine #191724
+        inactive_workspace #1F1A2D #1F1A2D #888888
+        urgent_workspace   #eb6f92 #eb6f92 #ffffff
         }
 }
 
