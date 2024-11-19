@@ -29,7 +29,7 @@ exec --no-startup-id picom -b
 
 # Wallpaper selections - Manual
 #  -- Komi ASCII
-exec_always feh --bg-fill /home/bilalshafi/.config/i3/wall.png
+# exec_always feh --bg-fill /home/bilalshafi/.config/i3/wall.png
 #  -- Sakura
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/4tj8VgN.jpeg"
 #  -- Anime Girl 01 - Red
@@ -37,7 +37,7 @@ exec_always feh --bg-fill /home/bilalshafi/.config/i3/wall.png
 #  -- Anime Sunset
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/4323991.jpg"
 #  -- Psycho Girl ASCII
-# exec_always feh --bg-fill "/home/bilalshafi/Downloads/ascii_art/ascii-art (33).png"
+exec_always feh --bg-fill "/home/bilalshafi/Downloads/ascii_art/ascii-art (33).png"
 #  -- Komi looking down ASCII
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/ascii_art/ascii-art (37).png"
 #  -- FLCL
@@ -48,6 +48,8 @@ exec_always feh --bg-fill /home/bilalshafi/.config/i3/wall.png
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/linux-penguin-and-rainbow-background-imsv6hxt0e8zcl7m-3730406657.jpg"
 #  -- Anime Girl 2 -  Red
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/NDDV3HJ6_output_0.jpeg"
+#  -- Black Grid
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/521075.jpg"
 
 
 for_window [class="^.*"] border pixel 0
