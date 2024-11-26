@@ -48,8 +48,8 @@ exec --no-startup-id picom -b
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/linux-penguin-and-rainbow-background-imsv6hxt0e8zcl7m-3730406657.jpg"
 #  -- Anime Girl 2 -  Red
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/NDDV3HJ6_output_0.jpeg"
-#  -- Black Grid
-exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/521075.jpg"
+#  -- Black
+exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/000000.png"
 #  -- Anime Girl 03
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/wepm6ho1ri151.jpg"
 
