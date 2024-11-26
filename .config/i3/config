@@ -37,7 +37,7 @@ exec --no-startup-id picom -b
 #  -- Anime Sunset
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/4323991.jpg"
 #  -- Psycho Girl ASCII
-exec_always feh --bg-fill "/home/bilalshafi/Downloads/ascii_art/ascii-art (33).png"
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/ascii_art/ascii-art (33).png"
 #  -- Komi looking down ASCII
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/ascii_art/ascii-art (37).png"
 #  -- FLCL
@@ -49,7 +49,10 @@ exec_always feh --bg-fill "/home/bilalshafi/Downloads/ascii_art/ascii-art (33).p
 #  -- Anime Girl 2 -  Red
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/NDDV3HJ6_output_0.jpeg"
 #  -- Black Grid
-# exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/521075.jpg"
+exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/521075.jpg"
+#  -- Anime Girl 03
+# exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/wepm6ho1ri151.jpg"
+
 
 
 for_window [class="^.*"] border pixel 0
@@ -279,15 +282,28 @@ bar {
 
         strip_workspace_numbers yes  # Hide workspace numbers
 
-        colors {
-        background #26233a            # Base color
-        statusline #e0def4            # Text color
-        separator #191724             # Separator color
+        # Rosepine
+        # colors {
+        # background #26233a            # Base color
+        # statusline #e0def4            # Text color
+        # separator #191724             # Separator color
+        #
+        # focused_workspace  $rose $rose #191724
+        # active_workspace   $pine $pine #191724
+        # inactive_workspace #1F1A2D #1F1A2D #888888
+        # urgent_workspace   #eb6f92 #eb6f92 #ffffff
+        # }
 
-        focused_workspace  $rose $rose #191724
-        active_workspace   $pine $pine #191724
-        inactive_workspace #1F1A2D #1F1A2D #888888
-        urgent_workspace   #eb6f92 #eb6f92 #ffffff
+        # Grayscale
+        colors {
+        background #2E2E2E            # Dark gray base color
+        statusline #E0E0E0            # Light gray text color
+        separator #1A1A1A             # Very dark gray separator color
+
+        focused_workspace  #A0A0A0 #A0A0A0 #1A1A1A
+        active_workspace   #808080 #808080 #1A1A1A
+        inactive_workspace #3A3A3A #3A3A3A #888888
+        urgent_workspace   #C0C0C0 #C0C0C0 #1A1A1A
         }
 }
 

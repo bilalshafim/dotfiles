@@ -1,3 +1,7 @@
 
 2024/11/07 (13:46:16) | ===> btop++ v.1.2.3
 2024/11/07 (13:46:16) | ERROR: Exception in main loop -> filesystem error: directory iterator cannot open directory: No such file or directory [/home/bilalshafi/.config/btop/themes]
+
+2024/11/25 (14:41:34) | ===> btop++ v.1.2.3
+2024/11/25 (14:41:34) | INFO: Logger set to DEBUG
+2024/11/25 (14:41:34) | INFO: Logger set to INFO

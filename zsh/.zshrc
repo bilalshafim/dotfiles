@@ -112,7 +112,6 @@ alias vim="nvim"
 alias aiserver="ssh -o TCPKeepAlive=yes -o ServerAliveInterval=120 user@87.201.37.62 -p 33663"
 alias :q="exit"
 alias accentum="bluetoothctl paired-devices | grep ACCENTUM | cut -d ' ' -f 2 | xargs bluetoothctl connect"
-alias btconnect=connectbt()
 
 # pnpm
 export PNPM_HOME="/home/bilalshafi/.local/share/pnpm"
