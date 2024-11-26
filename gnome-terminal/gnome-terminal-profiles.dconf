@@ -1,18 +1,33 @@
 [/]
-default='20973b0f-a7cb-4fdd-bdfc-53cff02014c8'
-list=['20973b0f-a7cb-4fdd-bdfc-53cff02014c8']
+default='04db0ba4-0885-4aa6-9fc1-e9df4443238f'
+list=['20973b0f-a7cb-4fdd-bdfc-53cff02014c8', '04db0ba4-0885-4aa6-9fc1-e9df4443238f']
+
+[:04db0ba4-0885-4aa6-9fc1-e9df4443238f]
+background-color='rgb(0,0,0)'
+cursor-colors-set=true
+font='0xProto Nerd Font 8.5'
+foreground-color='rgb(255,255,255)'
+highlight-background-color='rgb(48,55,56)'
+highlight-colors-set=true
+palette=['rgb(0,0,0)', 'rgb(235,133,133)', 'rgb(142,168,142)', 'rgb(170,85,0)', 'rgb(190,185,171)', 'rgb(105,142,156)', 'rgb(111,130,137)', 'rgb(170,170,170)', 'rgb(85,85,85)', 'rgb(255,85,85)', 'rgb(85,255,85)', 'rgb(255,255,85)', 'rgb(85,85,255)', 'rgb(255,85,255)', 'rgb(85,255,255)', 'rgb(255,255,255)']
+scrollbar-policy='never'
+use-theme-colors=false
+use-theme-transparency=true
+visible-name='Monochrome'
 
 [:20973b0f-a7cb-4fdd-bdfc-53cff02014c8]
+audible-bell=false
 background-color='rgb(25,23,36)'
 background-transparency-percent=13
 bold-is-bright=false
 cursor-background-color='rgb(235,188,186)'
 cursor-foreground-color='rgb(54,42,126)'
-font='0xProto Nerd Font 9'
+font='0xProto Nerd Font 8.5'
 foreground-color='rgb(224,222,244)'
 highlight-background-color='rgb(64,61,82)'
 highlight-foreground-color='rgb(224,222,244)'
 palette=['rgb(38,35,58)', 'rgb(235,111,146)', 'rgb(49,116,143)', 'rgb(246,193,119)', 'rgb(156,207,216)', 'rgb(196,167,231)', 'rgb(235,188,186)', 'rgb(224,222,244)', 'rgb(110,106,134)', 'rgb(235,111,146)', 'rgb(49,116,143)', 'rgb(246,193,119)', 'rgb(156,207,216)', 'rgb(196,167,231)', 'rgb(235,188,186)', 'rgb(224,222,244)']
+preserve-working-directory='always'
 scrollbar-policy='never'
 use-system-font=false
 use-theme-background=false
