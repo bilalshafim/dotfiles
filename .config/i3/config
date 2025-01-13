@@ -32,7 +32,7 @@ exec --no-startup-id picom -b
 # exec_always feh --bg-fill /home/bilalshafi/.config/i3/wall.png
 #  -- Sakura
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/neww/4tj8VgN.jpeg"
-#  -- Anime Girl 01 - Red
+ # -- Anime Girl 01 - Red
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/915K5H2R_output_0.jpeg"
 #  -- Anime Sunset
 # exec_always feh --bg-fill "/home/bilalshafi/Downloads/b-horu/4323991.jpg"

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-tmpbg="$HOME/.config/i3/lock.png"
+tmpbg="$HOME/.config/i3/lock-2.jpg"
 # icon='/home/bilalshafi/Downloads/ascii_art/ascii-art (33).png'
 
 # (( $# )) && { icon=$1; }
@@ -14,7 +14,9 @@ BLANK='#00000000'
 CLEAR='#ffffff22'
 DEFAULT='#00000000'
 KEY='#8a8ea800'
-TEXT='#282a36'
+DEF='#282a36'
+WHITE='#ffffff'
+TEXT=$WHITE
 WRONG='#ff555522'
 VERIFYING='#41445800'
 
@@ -41,6 +43,6 @@ i3lock -n -i "$tmpbg" -L \
     --screen 1 \
     --radius 95 \
     --blur 2 \
-    --indicator \
+    --indicator 1\
     --clock \
     --time-str="%H:%M" \
