@@ -1,13 +1,26 @@
-## Dotfiles
+# Dotfiles
 
-### Dark
+## Screenshots
+### Monochrome Dark
+![black-14](https://github.com/user-attachments/assets/5a18374f-7cd1-4617-aa4d-17871738a274)
+
+![black-7](https://github.com/user-attachments/assets/4ef89cd8-a989-4755-8741-32b3f13dd8f7)
+
+![black-11](https://github.com/user-attachments/assets/f60e9378-3eb1-44c5-8434-1c86dceed689)
+
+### Monochrome Gray
+![black-5](https://github.com/user-attachments/assets/bc270c95-38a8-4cc4-9893-705320272cca)
+
+### Rosepine
 ![desk-dark](https://github.com/user-attachments/assets/3b9242f4-15c9-4f8b-ad92-81e8a516b92a)
 
-### Light
+### Rosepine Dawn
 ![desk-light](https://github.com/user-attachments/assets/a457c860-dfdb-4308-a298-cbb57157235e)
 
 ### ASCII Wallpaper
 ![komi_ascii_wall](https://github.com/user-attachments/assets/7737e517-8a98-4c74-a781-d55a4516c67a)
+
+
 
 
 # Usage
